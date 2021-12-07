@@ -1,0 +1,1 @@
+{"ast":null,"code":"import _classCallCheck from \"C:/Users/ezequ/Desktop/Angular/07-Bonus-loginApp/node_modules/@babel/runtime/helpers/esm/classCallCheck\";\nexport var UserModel = function UserModel() {\n  _classCallCheck(this, UserModel);\n};","map":null,"metadata":{},"sourceType":"module"}

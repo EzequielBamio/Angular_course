@@ -1,0 +1,13 @@
+<div class="row row-cols-1 row-cols-md-3 m-5 g-4 animated fastIn">
+    <div (click)="seeArtist( item )" *ngFor="let item of items" class="col puntero">
+        <div class="card">
+            <img [src]="item.images | noimage" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">{{ item.name }}</h5>
+                <p class="card-text">
+                    <span *ngFor="let artist of item.artists" class="badge rounded-pill bg-success">{{artist.name}}</span>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
