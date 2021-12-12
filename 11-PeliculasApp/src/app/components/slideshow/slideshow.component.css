@@ -1,0 +1,36 @@
+.swiper {
+    height: 530px;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    color: white;
+}
+
+.film-description {
+    background-color: rgba(0, 0, 0, 0.3);
+    bottom: 0;
+    padding: 5px 30px;
+    width: 100%;
+    position: absolute;
+}
+
+.swiper-slide {
+    width: 100vw;
+    margin: 0;
+    padding-top: 3vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-wrapper {
+    width: max-content;
+    display: flex;
+    flex-direction: row;
+}

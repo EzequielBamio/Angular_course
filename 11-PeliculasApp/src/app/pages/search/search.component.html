@@ -1,0 +1,8 @@
+<h1>Search films: <small class="text-capitalize">{{valueSearch}}</small></h1>
+<hr>
+
+<div class="row">
+    <div class="col">
+        <app-films-poster-grid [films]="films" *ngIf="films.length > 0"></app-films-poster-grid>
+    </div>
+</div>
