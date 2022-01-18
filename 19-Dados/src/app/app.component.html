@@ -1,0 +1,11 @@
+<h1>App Dados</h1>
+<hr>
+<div class="jumbutron text-center">
+    <button (click)="throwDados()" class="btn btn-success btn-lg">Throw</button>
+    <br>
+    <img [src]="dadoLeft" class="img">
+    <img [src]="dadoRight" class="img">
+
+    <h2 *ngIf="numberRandom1 === numberRandom2"><span class="badge bg-success">Win!</span></h2>
+
+</div>
